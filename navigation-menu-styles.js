@@ -12,6 +12,12 @@ export default css`:host {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+.primary, .secundary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
 .primary {
   list-style-type: none;
   margin: 0;
