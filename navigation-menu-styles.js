@@ -2,8 +2,14 @@ import { css, } from 'lit-element';
 
 
 export default css`:host {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
   display: block;
   box-sizing: border-box;
+  font-family: var(--cells-fontDefault, sans-serif);
   @apply --navigation-menu; }
 
 :host([hidden]), [hidden] {
