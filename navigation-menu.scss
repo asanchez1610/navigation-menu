@@ -3,6 +3,7 @@
 :host {
   display: block;
   box-sizing: border-box;
+  font-family: var(--cells-fontDefault, sans-serif);
   @apply --navigation-menu;
 }
 
